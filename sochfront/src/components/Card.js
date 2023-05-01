@@ -1,16 +1,16 @@
 import React from "react";
 import './Card.css'
 
-function Card({storyname , description}) {
+function Card({story}) {
    
   return (
     
         <div className="card-container ">
             <div class="row">
-                <img  className="image-container" src={storyname} alt="photo" />
+                <img  className="image-container" src={story.thumbnail.url} alt="photo" />
             </div>
             <div className="card-title">
-                <h2 className="txt">{description}</h2>
+                <h2 className="txt">{story.name}</h2>
             </div>
         
         </div>
