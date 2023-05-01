@@ -2,6 +2,7 @@ import React from 'react'
 import { createRoot } from "react-dom/client";
 import { Stage, Layer, Image } from "react-konva";
 import useImage from "use-image";
+import './Konva.css'
 
 
 
@@ -26,7 +27,7 @@ const Konva = () => {
   const [images, setImages] = React.useState([]);
   return (
     <div>
-      Components for Story
+      <h3 className='compname'>Components for Your Story</h3>
       <br />
       <img
         alt="lion"
@@ -74,7 +75,11 @@ const Konva = () => {
           </Layer>
         </Stage>
       </div>
+
+      <button className='but-spk'>Speak Your Thought</button>
+
     </div>
+
   );
 };
 

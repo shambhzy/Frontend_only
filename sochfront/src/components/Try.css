@@ -24,6 +24,7 @@
     width: 120px;
     height: 100px;
     margin-right: 100px;
+    margin-top : -170px;
     background-size: 50% 50%;
     background-size: cover;
 }
@@ -41,3 +42,4 @@
     align-items: flex-start;
     
 }
+
