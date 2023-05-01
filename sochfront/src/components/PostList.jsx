@@ -19,11 +19,12 @@ export default function PostList() {
     }
 
     return (
-        <div>
-            stories.map((pst, index) => 
-            <div key={index}> <Post storyname ={getName(pst.userId)} description = { pst.desc}/> 
-                {' '}
-            </div> )
-        </div>
+        // <div>
+        //     stories.map((pst, index) => 
+        //     <div key={index}> <Post storyname ={getName(pst.userId)} description = { pst.desc}/> 
+        //         {' '}
+        //     </div> )
+        // </div>
+        <div>Error</div>
     )
 }
