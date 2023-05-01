@@ -10,6 +10,7 @@ import Land from './Land';
 import Login from './land-components/Login';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Register from './land-components/Register';
+import Try from './components/Try';
 
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route path ="/land" element={<Land/>}/>
           <Route path ="/login" element={<Login/>}/>
           <Route path ="/reg" element={<Register/>}/>
+          <Route path="/tys" element={<Try/>}/>
         </Routes>
       </Router>
       

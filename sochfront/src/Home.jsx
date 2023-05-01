@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import { Container, Row, Card } from "react-bootstrap";
 import trialcard from './components/trialcard';
+import {Link} from "react-router-dom"
+import './Home.css'
 
 
 
@@ -32,9 +34,8 @@ function Home(props) {
           description={props.description}
         />
         
-
-
       </div> 
+      <Link className="stor-but" to="/tys" >Try Yourself</Link>
     
     </div>
   );
