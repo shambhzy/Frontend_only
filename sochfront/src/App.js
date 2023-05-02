@@ -11,6 +11,8 @@ import Login from './land-components/Login';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Register from './land-components/Register';
 import Try from './components/Try';
+import About from './land-components/About';
+import Dalle from './components/Dalle';
 
 
 
@@ -23,7 +25,8 @@ function App() {
           <Route path ="/land" element={<Land/>}/>
           <Route path ="/login" element={<Login/>}/>
           <Route path ="/reg" element={<Register/>}/>
-          <Route path="/tys" element={<Try/>}/>
+          <Route path="/tys" element={<Dalle/>}/>
+          <Route path="/abt" element={<About/>}/>
         </Routes>
       </Router>
       

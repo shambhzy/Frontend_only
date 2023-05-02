@@ -1,6 +1,15 @@
-.stor-but{
+.compname{
+    display: flex;
+    justify-content: center;
+
+}
+
+.save-but{
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     margin-top: 5vh;
+    /* margin-left: 43%; */
     background-color: rgba(252, 166, 97, 1);
     color: black;
     font-size: 600px;
@@ -10,17 +19,15 @@
     border-radius: 5px;
     cursor: pointer;
     align-items: center;
-    display: flex;
-    justify-content: center;
+    
+    
 }
-
-
-.stor-but:hover{
+.save-but:hover{
   background-color: rgb(101, 137, 237);
   color: white;
 }
 
-.stor-but:active {
+.save-but:active {
 
 background-color:rgb(171, 227, 171);
 
