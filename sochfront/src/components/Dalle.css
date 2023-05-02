@@ -24,6 +24,7 @@
   align-content: space-between;
   align-items: center;
   width: 600px;
+  padding: 30px;
 }
 
 .main-input {
@@ -37,6 +38,7 @@
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-bottom: 30px;
 }
 
 .main-button {

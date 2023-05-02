@@ -36,17 +36,17 @@ function Dalle() {
 
   return (
     <main className='dl'>
-        {imageUrl && <img src={imageUrl} className='image' alt='ai_image'/>}
+        {imageUrl && <img src={imageUrl} className="image" alt='ai_image'/>}
 
-        <InputBox label={"Description"} setAttribute={setUserPrompt} />
-        <InputBox label={"Amount"} setAttribute={setNumber} />
-        <InputBox label={"Size"} setAttribute={setSize} />
+        <InputBox label={"Enter What You want to see"} setAttribute={setUserPrompt} />
+        {/* <InputBox label={"Amount"} setAttribute={setNumber} />
+        <InputBox label={"Size"} setAttribute={setSize} /> */}
        
         <button className='main-button' onClick={() => generateImage()} >Generate</button>
     
     </main>
     
-  )
+  );
 }
 
 export default Dalle

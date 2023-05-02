@@ -1,5 +1,6 @@
 import React from "react";
 import './Card.css'
+import { Link } from "react-router-dom";
 
 function Card({story}) {
    
@@ -10,7 +11,8 @@ function Card({story}) {
                 <img  className="image-container" src={story.thumbnail.url} alt="photo" />
             </div>
             <div className="card-title">
-                <h2 className="txt">{story.name}</h2>
+                {/* <h2 className="txt">{story.name}</h2> */}
+                <Link className="txt" to="/kon">{story.name}</Link>
             </div>
         
         </div>

@@ -13,6 +13,8 @@ import Register from './land-components/Register';
 import Try from './components/Try';
 import About from './land-components/About';
 import Dalle from './components/Dalle';
+// import Konva from 'konva';
+import Konva from './components/Konva';
 
 
 
@@ -27,6 +29,7 @@ function App() {
           <Route path ="/reg" element={<Register/>}/>
           <Route path="/tys" element={<Dalle/>}/>
           <Route path="/abt" element={<About/>}/>
+          <Route path="/kon" element={<Konva/>}/>
         </Routes>
       </Router>
       

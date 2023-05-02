@@ -46,7 +46,8 @@ function Home() {
           isLoading? (<div>Loading.... </div>):
           error ? (<div> {error.message}</div>) : !storyArray ? <div> Array is empty</div> :
           storyArray.stories.map((story) => {
-           return <Card story = {story}/>
+           return 
+           <Card story = {story}/>
           })
         }
         {/* <Card
