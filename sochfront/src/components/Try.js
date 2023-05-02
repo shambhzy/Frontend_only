@@ -1,6 +1,5 @@
 import React from 'react'
 import './Try.css'
-import myGif from '../images/sb.gif';
 import Konva from './Konva';
 
 function Try() {

@@ -26,12 +26,12 @@ class Navbar extends Component {
 
 
               <li>
-                <a href="index.html">Stories</a>
+                <a href="About.js">Stories</a>
               </li>
 
 
               <li>
-                <a href="index.html">About</a>
+                <a href="abt">About</a>
               </li>
 
 
