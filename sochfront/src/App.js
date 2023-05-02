@@ -29,7 +29,7 @@ function App() {
           <Route path ="/reg" element={<Register/>}/>
           <Route path="/tys" element={<Dalle/>}/>
           <Route path="/abt" element={<About/>}/>
-          <Route path="/kon" element={<Konva/>}/>
+          <Route path="/kon" element={<Try/>}/>
         </Routes>
       </Router>
       
