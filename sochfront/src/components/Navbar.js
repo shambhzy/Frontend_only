@@ -11,7 +11,7 @@ class Navbar extends Component {
     return (
       <>
         <nav>
-          <a className="logo" href="index.html">
+          <a className="logo" href="/">
             {/* <img src="./images/lgo.svg" />x */}
           </a>
 
@@ -19,14 +19,14 @@ class Navbar extends Component {
             <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
 
               <li>
-                <a className="active" href="index.html">
+                <a className="active" href="/">
                   Home
                 </a>
               </li>
 
 
               <li>
-                <a href="About.js">Stories</a>
+                <a href="kon">Stories</a>
               </li>
 
 

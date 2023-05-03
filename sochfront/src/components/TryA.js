@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { Stage, Layer, Image, Transformer } from "react-konva";
 import useImage from "use-image";
 import './Konva.css'
+
 // import Canvas from './Canvas'
 // import SignaturePad from 'react-signature-canvas'
 
@@ -96,7 +97,7 @@ const URLImage = ({ image,shapeProps, isSelected,onSelect,onChange}) => {
   );
 };
 
-const Konva = () => {
+const TryA = () => {
   const dragUrl = React.useRef();
   const stageRef = React.useRef();
   const [images, setImages] = React.useState([]);
@@ -108,7 +109,7 @@ const Konva = () => {
     const uri = stageRef.current.toDataURL();
     console.log(uri);
     // we also can save uri as file
-    // but in the demo on Konva website it will not work
+    // but in the demo on TryA website it will not work
     // because of iframe restrictions
     // but feel free to use it in your apps:
     // downloadURI(uri, 'stage.png');
@@ -134,7 +135,6 @@ const Konva = () => {
 
   return (
     <div>
-
       
       <h3 className='compname'>Components for Your Story</h3>
       <br />
@@ -142,7 +142,7 @@ const Konva = () => {
             <img
             width={200}
                 alt="sky"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Color_icon_Light_Cornflower_blue.svg/1024px-Color_icon_Light_Cornflower_blue.svg.png"
+                src="https://img.freepik.com/premium-photo/beautiful-cloudscape-with-blue-sky-fluffy-clouds-sunset_104337-7013.jpg"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
@@ -152,8 +152,8 @@ const Konva = () => {
 
             <img
             width={200}
-                alt="crow"
-                src="https://static.vecteezy.com/system/resources/thumbnails/008/388/000/small/cartoon-crow-flying-isolated-on-white-background-vector.jpg"
+                alt="crocodile"
+                src="https://www.svgrepo.com/show/396227/crocodile.svg"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
@@ -173,8 +173,8 @@ const Konva = () => {
 
             <img
             width={100}
-                alt="pot"
-                src="https://www.shutterstock.com/image-illustration/illustration-earthen-pot-on-white-260nw-1935501604.jpg"
+                alt="monkey"
+                src="https://www.svgviewer.dev/static-svgs/454713/monkey.svg"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
@@ -183,8 +183,8 @@ const Konva = () => {
 
             <img
             width={200}
-                alt="pebbles"
-                src="https://www.margogardenproducts.com/wp-content/uploads/2020/01/RFGTMXP3.jpg"
+                alt="banana"
+                src="https://freesvg.org/img/pitr_Bananas_icon_1.png"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
@@ -193,8 +193,8 @@ const Konva = () => {
 
             <img
             width={200}
-                alt="one_pebbles"
-                src="https://www.pngall.com/wp-content/uploads/2017/03/Pebble-Stone-Download-PNG.png"
+                alt="river"
+                src="https://cdn-icons-png.flaticon.com/512/4765/4765663.png"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
@@ -250,7 +250,7 @@ const Konva = () => {
           </Layer>
         </Stage>
         {/* <button className='save-but' >Save</button> */}
-        <a className='save-but' href='konA'>New Imagination</a>
+        <a className='save-but' href='konA'>Save Your Imagination</a>
       </div>        
     </div>
 
@@ -271,9 +271,9 @@ const Konva = () => {
 //         false
 //       );
 const root = createRoot(container);
-root.render(<Konva />);
+root.render(<TryA />);
 
 
 
 
-export default Konva
+export default TryA;

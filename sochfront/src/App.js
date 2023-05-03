@@ -15,6 +15,7 @@ import About from './land-components/About';
 import Dalle from './components/Dalle';
 // import Konva from 'konva';
 import Konva from './components/Konva';
+import TryA from './components/TryA';
 
 
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/tys" element={<Dalle/>}/>
           <Route path="/abt" element={<About/>}/>
           <Route path="/kon" element={<Try/>}/>
+          <Route path="/konA" element={<TryA/>}/>
         </Routes>
       </Router>
       

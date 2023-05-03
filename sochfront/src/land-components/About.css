@@ -58,7 +58,7 @@ p{
     box-sizing: content-box;
     margin-top: 20vh;
     /* margin-left: 5vh; */
-    height: 500px;
+    height: 300px;
     width: 50%;
     /* border-radius: 10px; */
 }
@@ -110,7 +110,7 @@ p{
 }
 
 .column-2{
-    margin-left: 120px;
+    margin-left: 100px;
     margin-right: 80px;
 }
 
@@ -173,6 +173,67 @@ p{
     box-sizing: content-box;
     margin-top: 5vh;
     /* margin-left: 5vh; */
-    height: 300px;
+    height: 600px;
     width: 100%;
+}
+
+
+.dp-s1{
+    background-image: url("https://media.licdn.com/dms/image/C4D03AQGVe29TtT0yxw/profile-displayphoto-shrink_800_800/0/1654144769044?e=2147483647&v=beta&t=wV3uReGk9MyYNR5cCFuIWJtBEnf30bld8CycQcuzljU");
+    background-size: 50% 50%;
+    margin-top: 10vh;
+    /* margin-left: 12vh;  */
+    width: 150px;
+    height: 150px; 
+    background-size: cover;
+    border-radius: 90px;
+}
+
+.dp-s2{
+    background-image: url("https://media.licdn.com/dms/image/D5603AQG40Fbvg9xK-g/profile-displayphoto-shrink_800_800/0/1681930405554?e=2147483647&v=beta&t=FCvvAcvWgIw1UN0KhZjsiOnB3AK28gE7ow6FU9E5LGY");
+    background-size: 50% 50%;
+    margin-top: 10vh;
+    /* margin-left: 12vh;  */
+    width: 150px;
+    height: 150px; 
+    background-size: cover;
+    border-radius: 90px;
+}
+
+.dp-v3{
+    background-image: url("../images/vib.jpg");
+    background-size: 50% 50%;
+    margin-top: 10vh;
+    /* margin-left: 12vh;  */
+    width: 150px;
+    height: 150px; 
+    background-size: cover;
+    border-radius: 90px;
+}
+
+.dp-s4{
+    background-image: url("../images/sanki.jpg");
+    background-size: 50% 50%;
+    margin-top: 10vh;
+    /* margin-right: 600vh;  */
+    width: 150px;
+    height: 150px; 
+    background-size: cover;
+    border-radius: 90px;
+}
+
+
+.names-us{
+    /* margin-top: -1vh; */
+    color: whitesmoke;
+}
+
+h5{
+    /* margin-top: -3vh; */
+    color: aliceblue;
+}
+
+
+.cnt{
+    margin-top: -10vh;
 }

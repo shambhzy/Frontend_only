@@ -1,10 +1,13 @@
 import React from 'react'
 import './Try.css'
 import Konva from './Konva';
+import Navbar from './Navbar';
+import TryA from './TryA';
 
 function Try() {
   return (
     <div>
+      <Navbar/>
       <h1 className='heading'>
         Lets make you Your Own Story
       </h1>
@@ -23,6 +26,7 @@ function Try() {
 
       {/* Adding konva canvas */}
       <Konva/>
+      
       
     </div>
   )

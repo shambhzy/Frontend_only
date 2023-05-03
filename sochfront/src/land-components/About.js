@@ -1,11 +1,14 @@
 import React from 'react'
 import './About.css'
 import { Container } from 'react-bootstrap'
+import Navbar from '../components/Navbar'
 
 
 function About() {
   return (
     <div>
+
+        <Navbar/>
 
         <h1 className='aiish--head'>About Us</h1>
         <br/>
@@ -39,28 +42,70 @@ function About() {
         <div>
         <h1 className='guides' >Our Guides Through the Journey</h1>
 
-<div        iv className='row'>
+        <div className='row'>
             <div className='column-2'>
                 <div className='dp-1'></div>
                 <h2 className='names'>Dr. Reuben Thomas Varghese</h2>
-                <h5>Scientist,AIISH (Mysore)</h5>
+                <h4>Scientist,AIISH (Mysore)</h4>
             </div>
             <div className='column-2'>
                 <div className='dp-2'></div>
                 <h2 className='names-2'>Dr.Karthik Venkat</h2>
-                <h5>Professor,AIISH (Mysore)</h5>
+                <h4>Professor,AIISH (Mysore)</h4>
             </div>
             <div className='column-2'>
                 <div className='dp-3'></div>
                 <h2 className='names-3'>Dr. Ravi Kumar</h2>
-                <h5 className='ravi'>Assistant Professor, VVCE(Mysore)</h5>
+                <h4 className='ravi'>Assistant Professor, VVCE(Mysore)</h4>
             </div>
         </div>
 
 
         <div className='cnt'>
             <h1 className='cnt-head'>Contact US</h1>
-            <Container className='cnt-box'></Container>
+            <Container className='cnt-box'>
+
+        <div className='row'>
+            <div className='column-2'>
+                <div className='dp-s1'></div>
+                <h2 className='names-us'>Sanskar Suryavanshi</h2>
+                <h5>
+                Intern at HashedIn(Bangalore) 
+                <br/><br/>
+                email : 00suryavanshi00@gmail.com
+                phone : <br/> +91 7488609830
+                </h5>
+            </div>
+            <div className='column-2'>
+                <div className='dp-s2'></div>
+                <h2 className='names-us'>Shambhavi Mallikarjuna</h2>
+                <h5>Intern at IIIT-H(Hyderabad) 
+                <br/><br/>
+                email : shambhzy13@gmail.com
+                phone : <br/> +91 7975815195
+                </h5>
+            </div>
+            <div className='column-2'>
+                <div className='dp-v3'></div>
+                <h2 className='names-us'>Vibha G Mugwe</h2>
+                <h5>Student in VVCE (Mysore)
+                <br/><br/>
+                email : vibhamugwe@gmail.com
+                phone : <br/> +91 8762144055
+                </h5>
+            </div>
+            <div className='column-2'>
+                <div className='dp-s4'></div>
+                <h2 className='names-us'>Sanket S Nargund</h2>
+                <h5>Student in VVCE(Mysore)
+                <br/><br/>
+                email : sankets@gmail.com
+                phone : <br/> +91 9448477623
+                </h5>
+            </div>
+        </div>
+            </Container>
+            
         </div>
             
         </div>
