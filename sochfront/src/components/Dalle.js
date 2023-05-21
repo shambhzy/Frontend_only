@@ -61,7 +61,7 @@ function Dalle () {
 
   const configuration = new Configuration({
     apiKey: process.env.VITE_Open_AI_Key,
-    organization: "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"
+    organization: "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"
   })
 
   const openai = new OpenAIApi(configuration);
@@ -106,3 +106,45 @@ function Dalle () {
 }
 
 export default Dalle
+
+
+// import { useState } from "react";
+// import { Configuration, OpenAIApi } from "openai";
+// import { InputBox } from "./InputBox";
+
+// const configuration = new Configuration({
+//   apiKey: process.env.VITE_Open_AI_Key,
+// });
+// const openai = new OpenAIApi(configuration);
+
+// function Dalle() {
+//   const [userPrompt, setUserPrompt] = useState("");
+//   const [number, setNumber] = useState(1);
+//   const [size, setSize] = useState("256x256");
+//   const [imageUrl, setImageUrl] = useState("");
+
+//   const generateImage = async () => {
+//     const imageParameters = {
+//       prompt: userPrompt,
+//       n: parseInt(number),
+//       size: size,
+//     };
+//     const response = await openai.createImage(imageParameters);
+//     const urlData = response.data.data[0].url;
+//     setImageUrl(urlData);
+//   };
+
+//   return (
+//     <main className="App">
+//       {imageUrl && <img src={imageUrl} className="image" alt="ai thing" />}
+//       <InputBox label={"Description"} setAttribute={setUserPrompt} />
+//       <InputBox label={"Amount"} setAttribute={setNumber} />
+//       {/* <InputBox label={"Size"} setAttribute={setSize} /> */}
+//       <button className="main-button" onClick={() => generateImage()}>
+//         Generate
+//       </button>
+//     </main>
+//   );
+// }
+
+// export default Dalle;
