@@ -1,19 +1,23 @@
 import React from "react";
 import './Card.css'
 import { Link } from "react-router-dom";
+import trialcard from "./trialcard";
 
-function Card({story}) {
+function Card(props) {
    
   return (
     
         <div className="card-container ">
             <div class="row">
-                <img  className="image-container" src={story.thumbnail.url} alt="photo" />
+                <img  className="image-container" src={props.img} alt="photo" />
+                <div className="card-title">
+                {/* <h2 className="heading">{props.name}</h2> */}
+                <p className="text">{props.name}</p>
+                {/* <Link className="txt" to="">{props.link}</Link> */}
+                <a className='play-but' href={props.link}>Start  >></a>
             </div>
-            <div className="card-title">
-                {/* <h2 className="txt">{story.name}</h2> */}
-                <Link className="txt" to="/kon">{story.name}</Link>
             </div>
+            
         
         </div>
 

@@ -97,7 +97,7 @@ const URLImage = ({ image,shapeProps, isSelected,onSelect,onChange}) => {
   );
 };
 
-const TryA = () => {
+const TalkativeTur = () => {
   const dragUrl = React.useRef();
   const stageRef = React.useRef();
   const [images, setImages] = React.useState([]);
@@ -152,8 +152,8 @@ const TryA = () => {
 
             <img
             width={200}
-                alt="crocodile"
-                src="https://media.giphy.com/media/51vn4sNNODpOD7GRlH/giphy.gif"
+                alt="geese"
+                src="https://media.giphy.com/media/jfOCJkYdAT5UliQXtQ/giphy.gif"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
@@ -173,8 +173,8 @@ const TryA = () => {
 
             <img
             width={100}
-                alt="monkey"
-                src="https://media.giphy.com/media/SMy35IM1uiP59hm4Q0/giphy.gif"
+                alt="turtle"
+                src="https://media.giphy.com/media/DtxrfoXbXBDbUVtX9p/giphy.gif"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
@@ -183,8 +183,8 @@ const TryA = () => {
 
             <img
             width={200}
-                alt="banana"
-                src="https://freesvg.org/img/pitr_Bananas_icon_1.png"
+                alt="stick"
+                src="https://media.giphy.com/media/Cnhm47rcfjMyznvdIO/giphy.gif"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
@@ -193,14 +193,14 @@ const TryA = () => {
 
             <img
             width={200}
-                alt="river"
-                src="https://media.giphy.com/media/h7S09RdGSo9bXYCdKh/giphy.gif"
+                alt="road"
+                src="https://media.giphy.com/media/vbGLQXbaOoi2WXBNaF/giphy.gif"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
                 }}
             /> 
-            <p>There was a monkey and Crocodile, the crocodile asked the monkey to accompany him to his family to meet them, but ended up killing the monkey</p>
+            <p>There was a race in the Forest to decided the fastest animal in the forest, where Rabbit and Turtle competited with each other, but due to Rabbit's overconfidence it lost against Turtle.</p>
     
       <div
         onDrop={(e) => {
@@ -272,9 +272,9 @@ const TryA = () => {
 //         false
 //       );
 const root = createRoot(container);
-root.render(<TryA />);
+root.render(<TalkativeTur />);
 
 
 
 
-export default TryA;
+export default TalkativeTur;

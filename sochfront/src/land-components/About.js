@@ -70,19 +70,19 @@ function About() {
                 <div className='dp-s1'></div>
                 <h2 className='names-us'>Sanskar Suryavanshi</h2>
                 <h5>
-                Intern at HashedIn(Bangalore) 
+                Intern at <br/> HashedIn by Deloitte(Bangalore) 
                 <br/><br/>
-                email : 00suryavanshi00@gmail.com
-                phone : <br/> +91 7488609830
+                email : ssuryavanshi0001@gmail.com
+                
                 </h5>
             </div>
             <div className='column-2'>
                 <div className='dp-s2'></div>
                 <h2 className='names-us'>Shambhavi Mallikarjuna</h2>
-                <h5>Intern at IIIT-H(Hyderabad) 
+                <h5>Intern at IIIT (Hyderabad) 
                 <br/><br/>
                 email : shambhzy13@gmail.com
-                phone : <br/> +91 7975815195
+                
                 </h5>
             </div>
             <div className='column-2'>
@@ -91,7 +91,7 @@ function About() {
                 <h5>Student in VVCE (Mysore)
                 <br/><br/>
                 email : vibhamugwe@gmail.com
-                phone : <br/> +91 8762144055
+              
                 </h5>
             </div>
             <div className='column-2'>
@@ -100,7 +100,7 @@ function About() {
                 <h5>Student in VVCE(Mysore)
                 <br/><br/>
                 email : sankets@gmail.com
-                phone : <br/> +91 9448477623
+                
                 </h5>
             </div>
         </div>

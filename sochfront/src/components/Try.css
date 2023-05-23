@@ -43,3 +43,49 @@
     
 }
 
+.img-fluid {
+    width:30vh;
+    height:30vh;
+    margin-left: 60px;
+    border-radius: 7vh;
+}
+
+.card-head {
+    margin-left: 10vh;
+    font-weight: 800;
+    font-size: 30px;
+
+}
+
+.card-text{
+    margin-left: 3vh ;
+}
+
+
+.see-but{
+    text-decoration: none;
+    background-color: rgba(252, 166, 97, 1);
+    color: black;
+    font-size: 600px;
+    padding:3vh ;
+    font-size: 15px;
+    font-weight: 600; 
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 8%;
+    width:50%;
+}
+.butt:hover{
+  background-color: rgb(101, 137, 237);
+  color: white;
+}
+
+.butt:active {
+
+background-color:rgb(171, 227, 171);
+
+}
+ 

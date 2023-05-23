@@ -16,6 +16,11 @@ import Dalle from './components/Dalle';
 // import Konva from 'konva';
 import Konva from './components/Konva';
 import TryA from './components/TryA';
+import TurtnRab from './components/TurtnRab';
+import CleverRab from './components/CleverRab';
+import TalkativeTur from './components/TalkativeTur';
+import BearMen from './components/BearMen';
+import TYourself from './components/TYourself';
 
 
 
@@ -28,10 +33,16 @@ function App() {
           <Route path ="/land" element={<Land/>}/>
           <Route path ="/login" element={<Login/>}/>
           <Route path ="/reg" element={<Register/>}/>
-          <Route path="/tys" element={<Dalle/>}/>
+          <Route path="/tys" element={<TYourself/>}/>
           <Route path="/abt" element={<About/>}/>
-          <Route path="/kon" element={<Try/>}/>
-          <Route path="/konA" element={<TryA/>}/>
+          <Route path="/try" element={<Try/>}/>
+          <Route path="/kon1" element={<Konva/>}/>
+          <Route path="/kon2" element={<TurtnRab/>}/>
+          <Route path="/kon3" element={<CleverRab/>}/>
+          <Route path="/kon4" element={<TryA/>}/>
+          <Route path="/kon5" element={<TalkativeTur/>}/>
+          <Route path="/kon6" element={<BearMen/>}/>
+          
         </Routes>
       </Router>
       

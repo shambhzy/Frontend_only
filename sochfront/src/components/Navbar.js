@@ -26,7 +26,7 @@ class Navbar extends Component {
 
 
               <li>
-                <a href="kon">Stories</a>
+                <a href="try">Stories</a>
               </li>
 
 

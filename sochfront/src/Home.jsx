@@ -9,9 +9,20 @@ import {Link} from "react-router-dom"
 import './Home.css'
 import React, { useEffect, useState } from 'react'
 
+// function createCard (trialcard){
+//   return (
+//     <Card
+//       key ={trialcard.id}
+//       name = {trialcard.name}
+//       img = {trialcard.img}
+//       description = {trialcard.description}
+//       link = {trialcard.link}
+//       />
+//      )
+//   }
 
 
-function Home() {
+function Home(props) {
   
   const[storyArray, setStoryArray] = useState({});
   const[isLoading, setIsLoading] = useState(true);
@@ -28,6 +39,8 @@ function Home() {
           setIsLoading(false);
         });
   },[]);
+
+  
 
   return (
   <>
@@ -50,6 +63,10 @@ function Home() {
            <Card story = {story}/>
           })
         }
+
+
+        {/* {trialcard.map(createCard)} */}
+        
         {/* <Card
           storyname={props.name} 
           description={props.description}
@@ -65,8 +82,8 @@ function Home() {
         <Card
           storyname={props.name} 
           description={props.description}
-        /> */}
-        
+        />
+         */}
       </div> 
       <Link className="stor-but" to="/tys" >Try Yourself</Link>
     

@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { Stage, Layer, Image, Transformer } from "react-konva";
 import useImage from "use-image";
 import './Konva.css'
+import Navbar from './Navbar';
 // import Canvas from './Canvas'
 // import SignaturePad from 'react-signature-canvas'
 
@@ -133,10 +134,12 @@ const Konva = () => {
 
 
   return (
+    
     <div>
-
       
-      <h3 className='compname'>Components for Your Story</h3>
+      <h3 className='compname'>Components for Your 
+      Story</h3>
+      
       <br />
 
             <img
@@ -153,7 +156,7 @@ const Konva = () => {
             <img
             width={200}
                 alt="crow"
-                src="https://static.vecteezy.com/system/resources/thumbnails/008/388/000/small/cartoon-crow-flying-isolated-on-white-background-vector.jpg"
+                src="https://media.giphy.com/media/u2R5zbiw4V7niu7z1r/giphy.gif"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
@@ -164,7 +167,7 @@ const Konva = () => {
             <img
             width={200}
                 alt="tree"
-                src="https://cdn-icons-png.flaticon.com/512/2016/2016509.png"
+                src="https://media.giphy.com/media/Me15dPbub4gXFVlrky/giphy.gif"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
@@ -174,7 +177,7 @@ const Konva = () => {
             <img
             width={100}
                 alt="pot"
-                src="https://www.shutterstock.com/image-illustration/illustration-earthen-pot-on-white-260nw-1935501604.jpg"
+                src="https://media.giphy.com/media/tkJo9hedswdDMk7AVI/giphy.gif"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
@@ -183,8 +186,8 @@ const Konva = () => {
 
             <img
             width={200}
-                alt="pebbles"
-                src="https://www.margogardenproducts.com/wp-content/uploads/2020/01/RFGTMXP3.jpg"
+                alt="clouds"
+                src="https://media.giphy.com/media/dByKTOKy3msWmAx2V4/giphy.gif"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
@@ -200,6 +203,8 @@ const Konva = () => {
                 dragUrl.current = e.target.src;
                 }}
             /> 
+
+            <p>There was a Thirsty crow flying in the sky in search of water, it saw a pot of water. It thought to throw the pebbles in it to make the water come on top. Thus drink Water and quench its Thirst</p>
     
       <div
         onDrop={(e) => {
@@ -230,6 +235,7 @@ const Konva = () => {
           <Layer>
             {images.map((image,i) => {
               return (
+                
                 <URLImage
                     key={i}
                     image={image} 
@@ -250,7 +256,7 @@ const Konva = () => {
           </Layer>
         </Stage>
         {/* <button className='save-but' >Save</button> */}
-        <a className='save-but' href='konA'>New Imagination</a>
+        <a className='save-but' href='try'>Save your Imagination</a>
       </div>        
     </div>
 

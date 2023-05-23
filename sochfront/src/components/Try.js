@@ -2,30 +2,26 @@ import React from 'react'
 import './Try.css'
 import Konva from './Konva';
 import Navbar from './Navbar';
-import TryA from './TryA';
+// import Card from './Card';
+// import trialcard from "./tr";
+// import trialcard from "./components/trialcard.js";
+import Story from "./Story"
 
 function Try() {
   return (
     <div>
       <Navbar/>
       <h1 className='heading'>
-        Lets make you Your Own Story
+        Choose your Favourite Story
       </h1>
       <div className='bg-c'></div>
       <div className='bg-cc'></div>
 
-      {/* Was trying to add cool gifs lol */}
-      {/* <div className='column'>
-        <img  className='gif' src={myGif} alt="imagination-gif"/>
-        <li>
-          <ol>
-            <h3>To start</h3>
-          </ol>
-        </li>
-      </div> */}
-
-      {/* Adding konva canvas */}
-      <Konva/>
+      {/* Add a list of all the stories that are in demo */}
+       
+      <Story/>
+       
+      {/* <Konva/> */}
       
       
     </div>

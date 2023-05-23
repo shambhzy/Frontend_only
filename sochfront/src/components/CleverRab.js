@@ -97,7 +97,7 @@ const URLImage = ({ image,shapeProps, isSelected,onSelect,onChange}) => {
   );
 };
 
-const TryA = () => {
+const CleverRab = () => {
   const dragUrl = React.useRef();
   const stageRef = React.useRef();
   const [images, setImages] = React.useState([]);
@@ -152,8 +152,8 @@ const TryA = () => {
 
             <img
             width={200}
-                alt="crocodile"
-                src="https://media.giphy.com/media/51vn4sNNODpOD7GRlH/giphy.gif"
+                alt="rabbit"
+                src="https://media.giphy.com/media/AaJsk7LhSjM3uiPLyd/giphy.gif"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
@@ -173,8 +173,8 @@ const TryA = () => {
 
             <img
             width={100}
-                alt="monkey"
-                src="https://media.giphy.com/media/SMy35IM1uiP59hm4Q0/giphy.gif"
+                alt="lion"
+                src="https://media.giphy.com/media/zTk9GFgKMJQGmIzguV/giphy.gif"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
@@ -183,8 +183,8 @@ const TryA = () => {
 
             <img
             width={200}
-                alt="banana"
-                src="https://freesvg.org/img/pitr_Bananas_icon_1.png"
+                alt="well"
+                src="https://media.istockphoto.com/id/685117658/vector/brick-well-with-blue-water-and-wooden-bucket.jpg?s=612x612&w=0&k=20&c=eYxo4sXm_IKcZ5v2j4iO-rmiTjPt_Aw3HhJliOz-Qlo="
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
@@ -193,14 +193,14 @@ const TryA = () => {
 
             <img
             width={200}
-                alt="river"
-                src="https://media.giphy.com/media/h7S09RdGSo9bXYCdKh/giphy.gif"
+                alt="road"
+                src="https://media.giphy.com/media/vbGLQXbaOoi2WXBNaF/giphy.gif"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;
                 }}
             /> 
-            <p>There was a monkey and Crocodile, the crocodile asked the monkey to accompany him to his family to meet them, but ended up killing the monkey</p>
+            <p>Lion being the King of the jungle bullied every animals, so the rabbit decided to teach it a lesson, and challenging the lion to fight another lion in the well</p>
     
       <div
         onDrop={(e) => {
@@ -272,9 +272,9 @@ const TryA = () => {
 //         false
 //       );
 const root = createRoot(container);
-root.render(<TryA />);
+root.render(<CleverRab />);
 
 
 
 
-export default TryA;
+export default CleverRab;
